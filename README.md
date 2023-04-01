@@ -26,7 +26,7 @@ Remember that the stages of a remote procedure call are always:
 * server unmarshals the result data
 * if the call succeeded, the client returns the result to its caller; if the call failed, the client signals the error (throws the exception)
 
-It is strongly suggested you make use of Java Object Serialization for the marshaling/unmarshaling of data into a wire-friendly format. Make sure to look [at the official Java Serialization docs](https://docs.oracle.com/en/java/javase/20/docs/specs/serialization/index.html) if you have questions, however, we will be using Serialization in its most basic form to keep things as simple as possible.
+It is strongly suggested you make use of Java Object Serialization for the marshaling/unmarshaling of data into a wire-friendly format. Make sure to look [at the official Java Serialization docs](https://docs.oracle.com/en/java/javase/20/docs/specs/serialization/index.html) if you have questions, however, we will be using Serialization in its most basic form to keep things as simple as possible. You are of course welcome to implement this any way you wish if you'd prefer to not use Serialization.
 
 ### Rubric/Stories
 
