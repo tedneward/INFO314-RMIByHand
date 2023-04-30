@@ -42,7 +42,7 @@ public class Client {
             System.out.print(".");
         }
 
-        if (echo("Hello") == "You said Hello!")
+        if (echo("Hello").equals("You said Hello!"))
             System.out.print(".");
         else
             System.out.print("X");
